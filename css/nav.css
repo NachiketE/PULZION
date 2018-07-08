@@ -74,8 +74,6 @@ body {
 
    body
   {
-    overflow: hidden;
-    scroll-behavior: none;
     height: 100%;
   }
   /*.overlay-content
