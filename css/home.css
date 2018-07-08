@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    height: 50%;
+    padding-top: 48%;
+    position: relative;
+}
+
+
+svg {
+   position:absolute;
+    top:50;
+    left:0;
+}
+p {
+  text-align: center;
+  font-size: 40px;
+  margin-top:0px;
+  color:#0ff;
+}
+
+h1
+{
+  color:white;
+   font-size:40px;
+}
+
+#demo
+{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#p1
+{
+  margin-top:0;
+   top:180px; 
+   position: absolute;
+   margin-left: 13%;
+}
+
+#p2
+{
+  margin-top:0; 
+  top:150px; 
+  position: absolute;
+  margin-left: 73%;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 25px;
+    }
+    h1
+    {
+      font-size: 20px;
+    }
+
+   #p1,#p2
+   {
+    visibility: hidden;
+    margin-left: 0;
+    left:0;
+    top:0;
+   }
+   body
+   {
+    
+    overflow: hidden;
+    max-width: 98%;
+    overflow-x: hidden;
+    /*background-image: hidden;
+    background: black;*/
+   }
+}

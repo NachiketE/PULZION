@@ -1,0 +1,39 @@
+body{
+	background: #000000;
+}
+.head{
+	font-size: 50px;
+	color: #7DF9FF;
+}
+label{
+	color: #008080;
+}
+.form-group{
+	margin-top: 30px;
+}
+label{
+	font-size: 30px;
+}
+.form-control{
+	height: 50px;
+}
+.sel{
+	margin-top: 15px;
+}
+.list{
+	color: #7DF9FF;
+	font-size: 40px;
+}
+.check{
+	color: #008080;
+}
+.work{
+	color: #7DF9FF;
+	font-size: 40px;
+}
+.btn{
+	color:white;
+	background-color: #008080;
+	height: 40px;
+	width: 120px;
+}
