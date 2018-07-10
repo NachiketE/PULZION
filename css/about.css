@@ -1,0 +1,299 @@
+/*#e97162*/
+.image1{
+height:350px;
+width:650px;
+    margin-bottom:50px;
+
+}
+.image2{
+height:350px;
+width:650px;
+    margin-bottom:50px;
+}
+.image3{
+height:350px;
+width:650px;
+    margin-bottom:50px;
+}
+.image4{
+height:350px;
+width:650px;
+    margin-bottom:50px;
+}
+@media screen and (max-width:430px){
+    .image1
+    {
+        width:100%;
+    }
+    .image2{
+        width:100%;
+    }
+    .image3
+    {
+        width:100%;
+    }
+    .image4{
+        width:100%;
+    }
+}
+.head1{
+color:red;
+}
+
+body{
+background:#222222;
+}
+#line {
+  height: 6px;
+  width: 70%;
+  background: white;
+  border-radius: 5px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+  margin-top:100px;
+}
+.circle {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 15px;
+  position: absolute;
+  top: -7px;
+  border: 3px solid white;
+  cursor: pointer;
+margin-top:95px;
+margin-left:15%;
+  }
+.circle1 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:15.28%;
+  }
+.circle10 {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 15px;
+  position: absolute;
+  top: -7px;
+  border: 3px solid white;
+  cursor: pointer;
+margin-top:95px;
+margin-left:37.8%;
+  }
+.circle11 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:38.08%;
+  }
+
+
+.circle20 {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 15px;
+  position: absolute;
+  top: -7px;
+  border: 3px solid white;
+  cursor: pointer;
+margin-top:95px;
+margin-left:61.4%;
+  }
+.circle21 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:61.65%;
+  }
+
+
+.circle30 {
+  width: 20px;
+  height: 20px;
+  background: black;
+  border-radius: 15px;
+  position: absolute;
+  top: -7px;
+  border: 3px solid white;
+  cursor: pointer;
+margin-top:95px;
+margin-left:84.5%;
+  }
+.circle31 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:84.72%;
+  }
+  /*Media Query*/
+  @media (min-width:1200px) and (max-width:1600px){
+    .circle1 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:15.35%;
+  } 
+    .circle21 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:61.7%;
+  }
+  .circle31 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:84.83%;
+  }
+}
+
+  @media (min-width:600px) and (max-width:1200px){
+    .circle1 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:15.57%;
+  } 
+  .txt1{
+  	   font-size:50px;
+    position: absolute;
+    margin-left:50px;
+  }
+  .txt2{
+      font-size:50px;
+    position: absolute;
+  }
+  .txt3{
+      font-size:50px;
+    position: absolute;
+  }
+  .txt4{
+      font-size:50px;
+    position: absolute;
+  }
+  .circle11 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:38.39%;
+  }
+    .circle21 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:61.94%;
+  }
+  .circle31 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:85.11%;
+  }
+}
+
+ @media screen and (max-width:600px){
+    .circle1 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:16.1%;
+  } 
+  .circle11 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:38.92%;
+  }
+    .circle21 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:62.47%;
+  }
+  .circle31 {
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 8px;
+  position: absolute;
+  top: -7px;
+  cursor: pointer;
+margin-top:100px;
+margin-left:85.64%;
+  }
+}
