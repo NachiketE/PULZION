@@ -24,6 +24,10 @@ h1
    font-size:40px;
 }
 
+#heading
+{
+  padding-top: 0;
+}
 #demo
 {
   margin-bottom: 0;
@@ -45,14 +49,19 @@ h1
   position: absolute;
   margin-left: 73%;
 }
-
+#cs
+{
+  margin-top:-3%
+  color:white;
+  font-size: 30px;
+}
 @media only screen and (max-width: 600px) {
     p {
         font-size: 25px;
     }
     h1
     {
-      font-size: 20px;
+      font-size: 25px;
     }
 
    #p1,#p2
@@ -62,10 +71,15 @@ h1
     left:0;
     top:0;
    }
+   #cs
+   {
+    margin-top: -10%;
+    color:white;
+   }
    body
    {
     
-    overflow: hidden;
+    
     max-width: 98%;
     overflow-x: hidden;
     /*background-image: hidden;

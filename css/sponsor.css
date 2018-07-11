@@ -9,7 +9,7 @@ body {
   background: #222222;
   text-align: center;
   font-family: 'Roboto Mono';
-  padding: 1em;
+  /*padding: 1em;*/
 }
 
 h1 {
@@ -67,8 +67,9 @@ h1 {
   display: block;
   color: white;
   width: inherit;
-  background-size: cover !important;
+  background-size: 92% 90% !important;
   background-position: center !important;
+  background-repeat: no-repeat;
   height: 220px;
   padding: 1em 2em;
   background: #646c72;
@@ -87,6 +88,8 @@ h1 {
 
 @media only screen and (max-width: 600px) {
     .flip{
-        width:94%;
+        width:90%;
+        margin-left: 5%;
+       
     }
 }

@@ -13,6 +13,7 @@ body, html {
 
 h2 {
 	margin: 0 0 20px 0;
+
 	color: #0ff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -219,7 +220,18 @@ ol.type li a:hover {
 	margin-bottom: 40px;
 	padding:5px;
 }
-}.modal
+h2
+{
+	margin-top: -3%;
+
+}
+.portfolio-item
+{
+	margin-left:5%;
+	margin-right: 5%;
+}
+}
+.modal
 {
 	color:black;
 }

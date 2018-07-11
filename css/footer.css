@@ -1,12 +1,14 @@
-  /*footer*/
+   /*footer*/
+   
    .foot5 a:active,{
     text-decoration: none;
    }
 .footer{
+  /*position: fixed;
+  bottom: 0vh;*/
   width: 100%;
   z-index: 1;
-  margin-top: 20px;
-  
+   margin-top: 20px;
 }
 .infooter{
   text-align: center;
@@ -17,8 +19,7 @@
    height: 3px;
      border:none;
      width: 93%;
-     
-     margin-top: auto;
+     margin: auto;
      background-color: transparent;
      background-image: 
         -moz-linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
@@ -59,7 +60,7 @@
 .foot5{
   z-index: 2;
   width: 100%;
-  margin: 10px;
+  margin:auto;
   float: center;
   font-size: 1.6vh;
   padding: 1vh;
@@ -70,7 +71,7 @@
 
 .foot5 a{
   padding:5vh;
-  color: #808080;
+  color:    #696969;
   text-decoration: none;
 }
 
@@ -98,9 +99,10 @@ font-size: 3vh;
 
  /*footer*/
 .footer{
+  /*position: fixed;
+  bottom: 0vh;*/
   width: 100%;
-  z-index: 1;
-  bottom: 0vh;
+  z-index: 3;
 }
 .infooter{
   width: 100%;
@@ -169,5 +171,10 @@ font-size:24px;
 
 .foot5 i:hover{
 color:white;
+  }
+}
+@media all and (max-width: 991px) and (min-width: 565px){
+  .foot5{
+    margin-bottom: -2%;
   }
 }
