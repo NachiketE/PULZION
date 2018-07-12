@@ -3,13 +3,17 @@
     height: 50%;
     padding-top: 48%;
     position: relative;
+     margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
 svg {
    position:absolute;
-    top:50;
+    top:70;
     left:0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 p {
   text-align: center;
