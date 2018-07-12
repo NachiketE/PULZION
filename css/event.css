@@ -13,7 +13,7 @@ body, html {
 
 h2 {
 	margin: 0 0 20px 0;
-
+	font-family: 'Tabarra Shadow';
 	color: #0ff;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -219,6 +219,7 @@ h3
 	color:black;
 	font-size: 25px;
 	font-weight: bold;
+	font-family: 'Tabarra Shadow';
 }
 @media only screen and (max-width: 600px) {
    ol.type li a {
