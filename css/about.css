@@ -320,21 +320,21 @@ margin-left:85.64%;
 @media screen and (max-width:430px){
     .image1
     {
-       width:70%;
-       height:230px;
+       width:75%;
+       height:210px;
     }
     .image2{
-        width:70%;
-        height:230px;
+        width:75%;
+        height:200px;
     }
     .image3
     {
-        width:70%;
-        height:230px;
+        width:75%;
+        height:195px;
     }
     .image4{
-        width:70%;
-        height:230px;
+        width:75%;
+        height:210px;
     }
     #title1
     {
@@ -343,6 +343,6 @@ margin-left:85.64%;
     }
     #line
     {
-      margin-top: 50px;
+      margin-top: 52px;
     }
 }
