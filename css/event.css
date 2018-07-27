@@ -1,5 +1,5 @@
 body, html {
-	font-family: 'Open Sans', sans-serif;
+	
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	color: white;
@@ -10,26 +10,30 @@ body, html {
   
 
 }
+@font-face{
+	font-family:Equinox;
+	src:url('../fonts/Equinox Regular.otf');
+}
 
 h2 {
-	margin: 0 0 20px 0;
-	font-family: 'Tabarra Shadow';
-	color: #0ff;
+	margin-top:-1%;
+	color:white;
 	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 400;
-	font-size: 30px;
+	font-family: Equinox;
+	font-size: 40px;
 }
 h3, h4 {
 	color: #222;
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: 1px;
+	font-family: Equinox;
 }
 h5 {
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 20px;
+	font-family: Equinox;
 }
 p.intro {
 	font-size: 16px;

@@ -1,10 +1,13 @@
+
+
 .container {
     width: 100%;
-    height: 50%;
+    height: 90%;
     padding-top: 48%;
     position: relative;
      margin-bottom: 0;
     padding-bottom: 0;
+    bottom: 0;
 }
 
 
@@ -21,20 +24,29 @@ p {
   margin-top:0px;
   color:#0ff;
 }
-
+@font-face{
+  font-family:Equinox;
+  src:url('../fonts/Equinox Bold.otf');
+}
 h1
 {
   color:white;
    font-size:40px;
+   font-family:Equinox;
+
 }
 
 #heading
 {
   padding-top: 0;
 }
+
+
 #demo
 {
   margin-bottom: 0;
+  /*font-family: 'Black Ops One', cursive;*/
+  font-family: 'Bungee Inline', cursive;
   padding-bottom: 0;
 }
 
@@ -55,9 +67,28 @@ h1
 }
 #cs
 {
-  margin-top:-3%
+  
   color:white;
   font-size: 30px;
+  letter-spacing: 1px;
+  font-family: 'Do Hyeon', sans-serif;
+
+}
+#cs1
+{
+  
+  color:white;
+  font-size: 25px;
+  font-family: 'Do Hyeon', sans-serif;
+  margin-top: 25%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+#a
+{
+  font-size: 35px;
 }
 @media only screen and (max-width: 600px) {
     p {
@@ -77,9 +108,21 @@ h1
    }
    #cs
    {
-    margin-top: -10%;
-    color:white;
-   }
+    font-size: 20px;
+  }
+  #cs1
+   {
+    font-size: 20px;
+    margin-top: 50%;
+  }
+  #a
+  {
+    font-size:25px;
+  }
+  .container
+  {
+    height: 60%;
+  }
    body
    {
     
