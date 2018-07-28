@@ -1,7 +1,39 @@
 body {
-  font: 14px/2 "Open sans",sans-serif;
+  font: 14px/2 "JosefinSans","JosefinSans";
   letter-spacing: 0.08em;
 }
+@font-face{
+  font-family:JosefinSans;
+  src:url('../fonts/JosefinSans-Regular.ttf');
+}
+@font-face{
+  font-family:Equinox;
+  src:url('../fonts/Equinox Regular.otf');
+}
+p
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+}
+
+@media all and (max-width: 972px)
+{
+    p
+    {
+       font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+    }
+
+ }
+ @media all and (max-width: 415px) and (max-height: 620px)
+{
+    p
+    {
+       font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+    }
+
+ }
 
 .btn {
   display: inline-block;
@@ -139,7 +171,7 @@ body {
 .slideshow .slide .title {
   margin: 0 auto 15px;
   max-width: 1000px;
-  font: 300 50px/1.2 "Oswald", sans-serif;
+  font: 300 50px/1.2 "Equinox", "JosefinSans";
   letter-spacing: 0.35em;
   text-transform: uppercase;
   color: #0ff;
@@ -240,7 +272,7 @@ body {
   .slideshow .slide .title {
   margin-top:0%;
   max-width: 1000px;
-  font: 300 40px/1.2 "Oswald", sans-serif;
+  font: 300 40px/1.2 "Equinox", "JosefinSans";
   letter-spacing: 0.35em;
   text-transform: uppercase;
   }

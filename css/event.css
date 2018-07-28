@@ -7,7 +7,9 @@ body, html {
   padding: 0;
   width: 100%;
   height: 100vh;
-  
+  background: url('../img/11.jpg');
+  background-position: center;
+   	background-size: cover;
 
 }
 @font-face{
@@ -84,14 +86,27 @@ hr {
 }
 #portfolio {
 	padding: 120px 0;
-	background: #222222;
 	padding-top: 30px;
 }
-@media all and (max-width:431px)
+@media all and (max-width:600px) and (min-width: 361px)
 {
 .res{
 margin-top:20px;
 }
+}
+@media all and (min-width: 600px) and (max-width: 693px){
+	.res{
+		margin-top: 30px;
+	}
+}
+@media all and (max-width: 361px)
+{
+	.res1{
+		margin-top: 20px;
+	}
+	.res{
+		margin-top: 20px;
+	}
 }
 .categories {
 	

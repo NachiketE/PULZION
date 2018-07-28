@@ -9,7 +9,10 @@
     padding-bottom: 0;
     bottom: 0;
 }
-
+@font-face{
+  font-family:Revilo;
+  src:url('../fonts/revilo san.ttf');
+}
 
 svg {
    position:absolute;
@@ -39,16 +42,35 @@ h1
 #heading
 {
   padding-top: 0;
+  letter-spacing: 10;
+  margin-top: 2.5%;
 }
-
-
+@media only screen and (max-width: 600px) 
+{
+  #heading
+  {
+    letter-spacing: 3;
+    font-size: 200%;
+    margin-top: 4%;
+  }
+}
 #demo
 {
   margin-bottom: 0;
   /*font-family: 'Black Ops One', cursive;*/
-  font-family: 'Bungee Inline', cursive;
+  font-family: 'Revilo', cursive;
   padding-bottom: 0;
+  font-size: 150%;
 }
+
+@media all and (min-width: 600px) 
+{
+  #demo
+    {
+
+      font-size: 200%;
+    }
+  }
 
 #p1
 {
@@ -69,9 +91,9 @@ h1
 {
   
   color:white;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 1px;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Revilo', sans-serif;
 
 }
 #cs1
